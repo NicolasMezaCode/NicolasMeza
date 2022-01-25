@@ -12,29 +12,39 @@
     display: flex;
     padding-left: 137px;
     padding-top: 30px;
-    
     text-shadow: 2px 2px #121212;
     color: #FFFF;
-    margin: 0%;
+    margin: 0%;    
 }
-.ln{
-    padding-left: 20px;
+
+
+.fn:hover{
+    color:#11CC9E;
 }
+
 .bar{
     height: 100px;
     background-color: #DA0037;
 }
 
 .wb{
-    padding-left: 610px;
-    
+    margin-left: 610px;
+}
+.wb:hover{
+    color:#11CC9E;
 }
 .amb{
-    padding-left: 100px;
+    margin-left: 100px;
+}
+.amb:hover{
+    color:#11CC9E;
 }
 .cb{
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.cb:hover{
+    color:#11CC9E;
 }
 
 .mtxt{
