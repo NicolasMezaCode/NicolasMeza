@@ -9,15 +9,19 @@
  }
 
 .hbtt{
+    
     display: flex;
-    padding-left: 137px;
+    padding-left: 106px;
     padding-top: 30px;
     text-shadow: 2px 2px #121212;
     color: #FFFF;
     margin: 0%;    
 }
 
-
+.fn{
+    margin-right: 300px;
+    font-size: 28px;
+}
 .fn:hover{
     color:#11CC9E;
 }
@@ -28,8 +32,12 @@
 }
 
 .wb{
-    margin-left: 610px;
+    margin-left: 310px;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+} 
 .wb:hover{
     color:#11CC9E;
 }
