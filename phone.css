@@ -17,11 +17,12 @@ html{
     background-color: #121212;
 }
 header{
+    position: fixed;
     display: flex;
     flex-direction: row;
     width: 100%;
     min-width: 320px;
-    height: 64px;
+    height: 55px;
     justify-content: space-between;
     align-items: center;
     background-color: var(--red);
@@ -56,6 +57,7 @@ main {
     color: var(--white);
 }
 .main_txt{
+    margin-top: 55px;
     margin-bottom: 20px;
     text-align: center;
     text-justify: center;
