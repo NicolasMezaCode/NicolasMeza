@@ -14,11 +14,13 @@ html{
     font-size: 62.5%;
 }
  body{
-     background-color: #121212;
+     background-color: #ffff;
  }
-
 
 header{
     font-family:'Roboto',sans-serif;
-  
+    
+}
+.logo{
+    
 }
