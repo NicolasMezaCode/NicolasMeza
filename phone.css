@@ -3,6 +3,7 @@
     --red:#DA0037;
     --greenish:#11CC9E;
     --white:#ffff;
+    --redop:#da0037f3;
 }
 
 *{
@@ -25,7 +26,9 @@ header{
     height: 55px;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--red);
+    background-color:var(--red);
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .header_container{
     display: flex;
@@ -55,18 +58,21 @@ header{
 main {
     padding: 28.52px;
     color: var(--white);
+    
 }
 .main_txt{
     margin-top: 55px;
     margin-bottom: 20px;
     text-align: center;
     text-justify: center;
+    padding: 50px 6vw;
 }
 figure{
     display: flex;
     justify-content: center;
 }
 .im{
+    font-weight: 700;
     font-size: 3.1rem;
 }
 
@@ -75,9 +81,10 @@ figure{
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 60px;
+    padding: 0 0 170px 6vw;
 }
 .now{
-    font-size: 1.55rem;
+    font-size: 1.6rem;
     text-align: center;
     text-justify: center;
 }
@@ -85,6 +92,7 @@ figure{
     font-size: 2.5rem;
     color: var(--greenish);
 }
-.xd{
-    font-size: 3rem;
+.foto_desk{
+    display: none;
 }
+
