@@ -1,0 +1,35 @@
+.foto_desk{
+    display: flex;
+    justify-content: center;
+    
+}
+.foto2{
+    border-radius: 30px;
+    max-width: 30rem;
+    height: auto;
+}
+figure{
+    display: none;
+}
+.main_txt{
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index: 1;
+}
+.im{
+    font-size: 4.5rem;
+}
+header{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.now{
+    font-size: 2rem;
+}
+.check{
+    font-size: 3rem;
+}

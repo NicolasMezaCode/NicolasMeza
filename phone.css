@@ -58,14 +58,18 @@ header{
 main {
     padding: 28.52px;
     color: var(--white);
+
     
 }
 .main_txt{
+    max-width: 51.5rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 55px;
-    margin-bottom: 20px;
     text-align: center;
-    text-justify: center;
-    padding: 50px 6vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
 }
 figure{
     display: flex;
@@ -79,9 +83,12 @@ figure{
 .com_txt{
     display: flex;
     justify-content: center;
+    max-width: 51.5rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
     margin-bottom: 60px;
-    padding: 0 0 170px 6vw;
+    padding-top: 30px;
 }
 .now{
     font-size: 1.6rem;
@@ -91,6 +98,9 @@ figure{
 .check{
     font-size: 2.5rem;
     color: var(--greenish);
+    max-width: 51.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 .foto_desk{
     display: none;
